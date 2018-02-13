@@ -8,7 +8,7 @@ $('.slider').slick({
   variableWidth: true,
   infinite: true,
   focusOnSelect: true,
-  cssEase: 'linear',
+  cssEase: 'ease',
   touchMove: true,
 
   //         responsive: [                        

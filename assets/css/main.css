@@ -502,8 +502,11 @@
     position: relative;
     }
 .search-section { background: #0076c4}
-
-
+.passengers-dropdown-right ul {padding: 0 ; float: left}
+.passengers-dropdown-left { width: 100%}
+.passengers-dropdown-right { float: left}
+.slick-arrow {
+  color: #acacac;}
 
 @media (max-width:768px) {
   .mainNav {background: rgba(0,0,0,.8);z-index: 1;}
@@ -525,5 +528,15 @@
   .search-nav-right { margin-top:20px; }
   .search-nav-right li { float:left; padding:0; margin-right:5px; }
   .steps-overlay { display:none; }
+  .slick-next {
+    left: 0
+}
+.slick-prev {
+    right: 0
+}
+.slick-arrow {
+  color: black;
+  text-shadow: 1px 1px 10px #acacac;
+  }
 }           
       
