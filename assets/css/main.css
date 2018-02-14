@@ -27,7 +27,7 @@
   height:4px;
   float:left;
   clear:both;
-  background-color: #333333;
+  background-color: #6f6f6f;
   position: absolute;
   z-index: 1;
   left: 0;
@@ -507,11 +507,65 @@
 .passengers-dropdown-right { float: left}
 .slick-arrow {
   color: #acacac;}
+  .item-title {
+    color: #c53d8f;
+    margin: 50px 0 30px 0;
+    position: relative;
+}
+
+.item-title:after {
+  content: " ";
+  margin-top: 30px;
+  width: 60px;
+  height: 4px;
+  background-color: #c53d8f;
+  position: absolute;
+  left: 0;
+}
+.steps {width: 33.3%;float: left;position: relative;font-weight: bold;font-size: 20px;}
+.steps-info {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 20px;
+}
+.steps-cont {background: #0077c6;}
+.terms {
+    padding: 0;
+    list-style-position: inside;
+    margin-top: 40px;
+    }
+.terms li {    
+    margin: 10px 0;
+    color: gray
+}
+.cards-cont {background-color: #4a1762;margin-top: 80px;}
+
+.cards {
+    margin:80px auto 0 auto;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.cards-cont  .card-images li {
+    margin-right:-100px;
+    width:calc(25% + 76px);
+    display:inline-block;
+    text-align:center;
+        color:white;
+
+}
+
+.card-images {padding: 50px 0;}
+.cards-cont  .card-images li img {
+    width:100%;
+}
 
 @media (max-width:768px) {
   .mainNav {background: rgba(0,0,0,.8);z-index: 1;}
   .mainContent h2 {font-size: 20px}
-  .section-title { font-size: 20px; padding: 20px 0 0; }
+  .section-title {font-size: 20px;padding: 20px 0 40px 0;}
   .mainSection {background-size: cover}
   .customTabs { margin-top: 35px; }
   .datepicker-icon { display:none; }
@@ -538,5 +592,16 @@
   color: black;
   text-shadow: 1px 1px 10px #acacac;
   }
+    .steps {width: 100%}
+    .terms {
+    margin-top: 0px;
+    }
+.item-title {
+    margin: 10px 0 30px 0;}
+    .cards-cont .card-images li {
+    margin: 0 auto;
+    width: 100%;
+}
+    
 }           
       

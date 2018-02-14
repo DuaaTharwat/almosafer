@@ -11,15 +11,6 @@ $('.slider').slick({
   cssEase: 'ease',
   touchMove: true,
 
-  //         responsive: [                        
-  //             {
-  //               breakpoint: 576,
-  //               settings: {
-  //                 centerMode: false,
-  //                 variableWidth: false,
-  //               }
-  //             },
-  //         ]
 });
 
 
@@ -91,3 +82,38 @@ $('.passengers-toggle').click(function(){
 });
 
 });
+
+
+var but = document.getElementById('totalpassengers'),
+ count4 = 0;
+this.innerHTML =  totalpassengers;
+
+var button = document.getElementById('addadult'),
+  count = 0;
+button.onclick = function() {
+  count += 1;
+  count4 +=1;
+  totalpassengers.innerHTML =  count4;
+  totaladult.innerHTML =  count; 
+};
+
+var button = document.getElementById('addchild'),
+ count2 = 0;
+button.onclick = function() {
+  
+  count2 += 1;
+  count4 +=1;
+  totalpassengers.innerHTML =  count4;
+  totalchild.innerHTML =  count2;
+};
+
+var button = document.getElementById('addinfat'),
+  count3 = 0;
+button.onclick = function() {
+ 
+  count3 += 1;
+  count4 +=1;
+  totalinfat.innerHTML =  count3;
+  totalpassengers.innerHTML =  count4;
+};
+
